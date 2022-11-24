@@ -57,6 +57,10 @@ packer.startup({
       "nvim-telescope/telescope.nvim",
       requires = { "nvim-lua/plenary.nvim" },
     })
+    -- surround
+    use("ur4ltz/surround.nvim")
+    -- Comment
+    use("numToStr/Comment.nvim")
     --------------------------↓ colorschemes ↓--------------------------------------
     -- tokyonight
     use("folke/tokyonight.nvim")
