@@ -89,6 +89,21 @@ _G.packer_plugins = {
     path = "/Users/yangxianglong/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/yangxianglong/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/Users/yangxianglong/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/Users/yangxianglong/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/yangxianglong/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",

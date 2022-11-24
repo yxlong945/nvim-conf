@@ -61,6 +61,14 @@ packer.startup({
     use("ur4ltz/surround.nvim")
     -- Comment
     use("numToStr/Comment.nvim")
+    -- nvim-autopairs
+    use("windwp/nvim-autopairs")
+    -- git
+    use({ "lewis6991/gitsigns.nvim" })
+    --------------------------↓      lsp     ↓--------------------------------------
+       -- 补全引擎
+    use("hrsh7th/nvim-cmp")
+    --------------------------↑      lsp     ↓--------------------------------------
     --------------------------↓ colorschemes ↓--------------------------------------
     -- tokyonight
     use("folke/tokyonight.nvim")
