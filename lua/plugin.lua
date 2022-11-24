@@ -63,6 +63,8 @@ packer.startup({
     use("numToStr/Comment.nvim")
     -- nvim-autopairs
     use("windwp/nvim-autopairs")
+    -- nvim-ts-autotag
+    use("windwp/nvim-ts-autotag")
     -- git
     use({ "lewis6991/gitsigns.nvim" })
     --------------------------↓      lsp     ↓--------------------------------------
