@@ -11,3 +11,9 @@
 # 查看已安装的 Language parser
 :TSInstallInfo 
 ```
+## 为了使用toggleterm插件中的lazygit拓展功能，需要通过下面命令安装lazygit。
+```shell
+# 具体命令可以google关键词“brew lazygit”。
+brew install lazygit
+
+```
