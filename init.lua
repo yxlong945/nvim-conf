@@ -1,4 +1,3 @@
-print("this is init.lua")
 -- 基础配置
 require("basic")
 -- 快捷键映射
@@ -17,3 +16,10 @@ require("plugin-config.comment")
 require("plugin-config.nvim-autopairs")
 require("plugin-config.nvim-ts-autotag")
 require("plugin-config.gitsigns")
+-- 内置LSP
+require("lsp.setup")
+require("lsp.cmp")
+require("lsp.ui")
+-- 格式化
+require("lsp.formatter")
+require("lsp.null-ls")
