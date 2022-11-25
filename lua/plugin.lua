@@ -67,6 +67,8 @@ packer.startup({
     use("windwp/nvim-ts-autotag")
     -- git
     use({ "lewis6991/gitsigns.nvim" })
+    -- toggleterm
+    use("akinsho/toggleterm.nvim")
     --------------------------↓      lsp     ↓--------------------------------------
     -- use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })
     use({ "williamboman/nvim-lsp-installer" })
