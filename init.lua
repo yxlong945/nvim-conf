@@ -17,6 +17,7 @@ require("plugin-config.nvim-autopairs")
 require("plugin-config.nvim-ts-autotag")
 require("plugin-config.gitsigns")
 require("plugin-config.toggleterm")
+require("plugin-config.dashboard")
 -- 内置LSP
 require("lsp.setup")
 require("lsp.cmp")
