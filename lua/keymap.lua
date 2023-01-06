@@ -36,10 +36,10 @@ vim.keymap.set("n", "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set("n", "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
 
 -- 上下滚动浏览
-map("n", "<S-j>", "8j", opt)
-map("n", "<S-k>", "8k", opt)
-map("v", "<S-j>", "8j", opt)
-map("v", "<S-k>", "8k", opt)
+map("n", "<C-j>", "8j", opt)
+map("n", "<C-k>", "8k", opt)
+map("v", "<C-j>", "8j", opt)
+map("v", "<C-k>", "8k", opt)
 -- ctrl u / ctrl + d  只移动9行，默认移动半屏
 map("n", "<C-u>", "10k", opt)
 map("n", "<C-d>", "10j", opt)
@@ -209,8 +209,8 @@ pluginKeys.comment = {
   },
 }
 -- ctrl + /
-map("n", "<C-_>", "gcc", { noremap = false })
-map("v", "<C-_>", "gcc", { noremap = false })
+map("n", "<C-/>", "gcc", { noremap = false })
+map("v", "<C-/>", "gcc", { noremap = false })
 
 -- lsp 回调函数快捷键设置
 pluginKeys.mapLSP = function(mapbuf)

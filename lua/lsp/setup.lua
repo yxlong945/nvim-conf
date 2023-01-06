@@ -20,6 +20,7 @@ local servers = {
   tsserver = require("lsp.config.ts"),
   rust_analyzer = require("lsp.config.rust"),
   yamlls = require("lsp.config.yamlls"),
+  gopls = require("lsp.config.gopls"),
   -- remark_ls = require("lsp.config.markdown"),
 }
 

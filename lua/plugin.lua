@@ -104,7 +104,7 @@ packer.startup({
     -- Rust 增强
     use("simrat39/rust-tools.nvim")
     -- Golang 增强
-    use("golang/tools/tree/gopls/v0.3.1/gopls")
+    -- use("github.com/golang/tools/tree/master/gopls")
     --------------------------↑      lsp     ↓--------------------------------------
     --------------------------↓ colorschemes ↓--------------------------------------
     -- tokyonight
