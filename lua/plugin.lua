@@ -71,6 +71,9 @@ packer.startup({
     use("akinsho/toggleterm.nvim")
     -- dashboard-nvim
     use("glepnir/dashboard-nvim")
+    -- https://github.com/kristijanhusak/vim-dadbod-ui
+    use("tpope/vim-dadbod")
+    use("kristijanhusak/vim-dadbod-ui")
     --------------------------↓      lsp     ↓--------------------------------------
     -- use({ "williamboman/nvim-lsp-installer", commit = "36b44679f7cc73968dbb3b09246798a19f7c14e0" })
     use({ "williamboman/nvim-lsp-installer" })
