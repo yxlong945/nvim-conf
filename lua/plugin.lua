@@ -114,6 +114,12 @@ packer.startup({
     use("folke/tokyonight.nvim")
     -- everforest    
     use("sainnhe/everforest")
+    -- gruvbox
+    use("morhetz/gruvbox")
+    -- gruvbox-material 
+    use("sainnhe/gruvbox-material")
+    -- karoliskoncevicius/sacredforest-vim
+    use("karoliskoncevicius/sacredforest-vim")
     --------------------------↑ colorschemes ↓--------------------------------------
     --------------------------↑ plugins ↑-------------------------------------------
   end,
