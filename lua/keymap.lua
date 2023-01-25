@@ -194,6 +194,13 @@ pluginKeys.telescopeList = {
   },
 }
 
+-- DataBase
+map("n", "<leader>du", ":DBUIToggle<CR>", opt)
+map("n", "<leader>df", ":DBUIFindBuffer<CR>", opt)
+map("n", "<leader>dr", ":DBUIRenameBuffer<CR>", opt)
+map("n", "<leader>dl", ":DBUILastQueryInfo<CR>", opt)
+
+
 -- 代码注释插件
 -- see ./lua/plugin-config/comment.lua
 pluginKeys.comment = {
