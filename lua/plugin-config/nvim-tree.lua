@@ -6,6 +6,7 @@ if not status then
   return
 end
 
+vim.notify("nvim-tree is start ")
 -- 列表操作快捷键
 local list_keys = require("keymap").nvimTreeList
 
@@ -22,6 +23,7 @@ nvim_tree.setup({
     enable = true,
     update_cwd = true,
   },
+  sort_by = "case_sensitive",
   filters = {
     -- 隐藏 .文件
     dotfiles = true,
@@ -54,6 +56,12 @@ nvim_tree.setup({
       -- 打开文件时关闭 tree
       quit_on_open = false,
     },
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = true,
   },
   -- wsl install -g wsl-open
   -- https://github.com/4U6U57/wsl-open/
